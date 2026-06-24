@@ -5,6 +5,23 @@ memory, approvals, and append-only execution history.
 
 **Version: v0.1.2 (Public Preflight / Hardening Pass)**
 
+
+## Screenshots
+
+### Dashboard
+
+![Hardline Sovereign Core dashboard](docs/screenshots/dashboard.png)
+
+### Validation and release
+
+| GitHub Actions CI | Release v0.1.2 |
+|---|---|
+| ![GitHub Actions CI passing](docs/screenshots/github-actions-ci-passing.png) | ![GitHub release v0.1.2](docs/screenshots/github-release-v0.1.2.png) |
+
+### Repository overview
+
+![Repository README overview](docs/screenshots/github-repo-overview.png)
+
 ## What it is
 
 A structured backend + browser dashboard that gives a human or an AI agent
@@ -199,3 +216,4 @@ artifact storage, state history, approvals, and a ledger it can read from
 day one to current state.
 
 Sovereign Core is that substrate.
+
