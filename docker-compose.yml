@@ -1,0 +1,11 @@
+services:
+  sovereign-core:
+    build: .
+    container_name: hardline-sovereign-core
+    env_file:
+      - .env
+    ports:
+      - "8099:8099"
+    volumes:
+      - ./data:/data
+    restart: unless-stopped

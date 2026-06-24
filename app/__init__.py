@@ -1,0 +1,1 @@
+"""Hardline Sovereign Core."""

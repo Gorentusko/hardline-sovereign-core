@@ -1,0 +1,11 @@
+{
+  "name": "hardline-sovereign-core",
+  "version": "0.1.2",
+  "description": "Docker-deployable AI-native workspace for tasks, artifacts, memory, approvals, and append-only execution history.",
+  "safe_defaults": {
+    "agent_provider": "mock",
+    "external_connectors_allowed": false,
+    "paid_ai_calls": false
+  },
+  "demo_port": 8099
+}
